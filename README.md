@@ -1,2 +1,2 @@
-# http//cherubim123.github.io
+# http://cherubim123.github.io
 web
