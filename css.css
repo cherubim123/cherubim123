@@ -1,0 +1,55 @@
+	#header{
+    
+	color:  !important ;
+    padding: 40px;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: gray;
+    font-size: 20px;
+}
+
+/*  Efeitos botoões/*/
+.efeito {    
+	border:none; 
+	color:#ffffff;
+	padding:20px;
+	font-size:24px;
+	line-height:24px;
+	border-radius:10px;
+	position:relative;
+	box-sizing:border-boz;
+	cursor:pointer;
+
+	transition:all 400ms ease;
+	box-shadow:0 2px 3px #777;
+	
+	
+	
+}
+
+
+
+.efeito1:hover
+{
+        background:#53a7ea;
+}
+.efeito2:hover
+{
+        background:#53a7ea;
+}
+.efeito3:hover
+{
+        background:#20B2AA;
+}
+.efeito4:hover
+{
+background:#20B2AA;
+}
