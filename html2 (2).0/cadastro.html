@@ -13,34 +13,39 @@
 		<div class="jumbotron text-center">
   <h1>Area de Registro de Delitos</h1>
    <img src = "assalto.png"/>
+   
+   
 </div>
+
+<form method="get" action="php.php"  >
+
      <div class="form-group">
-      <label for="email">Nome:</label>
-      <input type="text" class="form-control" id="email" placeholder="ex:anderson cherubim" name="email">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" placeholder="ex:anderson cherubim" name="nome"required>
     </div>
     <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="ex:andersoncherubim@hotmail.com" name="email">
+      <input type="email" class="form-control" id="email" placeholder="ex:andersoncherubim@hotmail.com" name="email"required>
     </div>
     <div class="form-group">
-      <label for="pwd">CPF:</label>
-      <input type="number" class="form-control" id="pwd" placeholder="123.123,123-12" name="pwd">
+      <label for="cpf">CPF:</label>
+      <input type="number" class="form-control" id="cpf" placeholder="123.123,123-12" name="cpf"required>
     </div>
 	    <div class="form-group">
-      <label for="email">Rua:</label>
-      <input type="text" class="form-control" id="email" placeholder="Digite a rua onde aconteceu o ocorrido" name="email">
+      <label for="rua">Rua:</label>
+      <input type="text" class="form-control" id="rua" placeholder="Digite a rua onde aconteceu o ocorrido" name="rua"required>
     </div>
 	    <div class="form-group">
-      <label for="email">Data:</label>
-      <input type="date" class="form-control" id="email" placeholder="dd/mm/aaaa" name="email">
+      <label for="data">Data:</label>
+      <input type="date" class="form-control" id="data" placeholder="dd/mm/aaaa" name="data"required>
     </div>
 	    <div class="form-group">
-      <label for="email">Hora:</label>
-      <input type="time" class="form-control" id="email" placeholder="HH:MM" name="email">
+      <label for="hora">Hora:</label>
+      <input type="time" class="form-control" id="hora" placeholder="HH:MM" name="hora"required>
     </div>
     <div class="form-group">
-      <label for="sel1">Selecione o tipo delito:</label>
-      <select class="form-control" id="sel1">
+      <label for="seleciona">Selecione o tipo delito:</label>
+      <select class="form-control" id="seleciona" name="seleciona">
         <option>Furto</option>
         <option>Latrocínio</option>
         <option>Roubo de Carro</option>
@@ -48,14 +53,17 @@
 		<option>Outro</option>
       </select>
     <div class="form-group">
-      <label for="comment">Descrição do delito:</label>
-      <textarea class="form-control" rows="5" id="comment"></textarea>
+      <label for="descricao">Descrição do delito:</label>
+      <textarea class="form-control" rows="5" id="descricao" name="descricao"required></textarea>
     </div>
-  </form>
+  
 </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
+  
+
 </div>
 
 </body>
 </html>
+
